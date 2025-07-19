@@ -1,8 +1,20 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: 连享会的 Github 主页
+description: >
+  A personal website powered by just-the-docs.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: "https://lianxhcn.github.io" 
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# 设置导航菜单
+nav:
+  - title: "About"
+    url: /about/
+  - title: "Blogs"
+    url: /blog/
+  - title: "Codes"
+    url: /codes/
+  - title: "Books"
+    url: /books/
+
+# 站内搜索（可选）
+search_enabled: true
