@@ -13,8 +13,8 @@ nav:
     url: /blog/
   - title: "Codes"
     url: /codes/
-  - title: "Books"
-    url: /books/
+  - title: "Math"
+    url: /math/
 
 # 站内搜索（可选）
 search_enabled: true
