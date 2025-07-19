@@ -1,29 +1,41 @@
 ---
-title: "Codes"
+title: "特殊格式"
 layout: page
 ---
 
-Many of the links below will take you to content on GitHub
-([my github](https://github.com/arlionn)).
+参见 [just-the-docs: alerts](https://raw.githubusercontent.com/just-the-docs/just-the-docs-tests/refs/heads/main/docs/alerts.md) &rarr; [输出效果](https://github.com/just-the-docs/just-the-docs-tests/blob/main/docs/alerts.md)
 
-- `lianxh`：在 Stata 中快速搜索 [lianxh.cn](https://www.lianxh.cn) 推文并按指定格式输出
-  - 连享会, 2020, [ssc install lianxh：你想要的 Stata 都在这里](https://www.lianxh.cn/details/233.html)
-  - 连享会, 2023, [新版lianxh命令发布了！](https://www.lianxh.cn/details/1296.html)
+## Alerts
 
-- `bdiff`：组间系数差异检验
-  - 李烨阳, 2023, [Stata：自己动手做组间系数差异检验-bootstrap-bdiff](https://www.lianxh.cn/details/1286.html).
-  - 连玉君, 2020, [Stata: 如何检验分组回归后的组间系数差异？](https://www.lianxh.cn/details/19.html).
-- `winsor2`：批量缩尾处理
-  - 袁煜玲, 2021, [winsor2：离群值和异常值的缩尾处理](https://www.lianxh.cn/details/562.html).
-- `ihelp` / `wwwhelp`  
-  - 连享会, 2024, [ihelp: 快速打开Stata帮助文件PDF手册](https://www.lianxh.cn/details/1416.html).
-  - Chen Yongli, **Lian Yujun**\*. Browse and cite Stata manuals easily: the `wwwhelp` command. **Stata Journal**, 2024, 24 (1): 161–168. [-PDF-](https://file-lianxh.oss-cn-shenzhen.aliyuncs.com/Refs/LianPub/Chen-Lian-2024-SJ-wwwhelp-ihelp.pdf). 安装：`ssc install ihelp, replace`
-- `getiref`
-  - 连玉君, 2024, [getiref：快速获得文献的引文和PDF原文](https://www.lianxh.cn/details/1382.html).
-- `sftt`：双边随机边界模型
-  - **Lian Yujun**, Chang Liu, Christopher F. Parmeter. Two-tier stochastic frontier analysis using Stata. **Stata Journal**, 2023, 23(1): 197-229. [-Link-](https://journals.sagepub.com/doi/abs/10.1177/1536867X231162033), [-PDF-](https://file.lianxh.cn/Refs/LianPub/Lian-2023-SJ-sftt-Two-tier-SFA.pdf), [Codes & Data](https://gitee.com/arlionn/sftt), [github](https://github.com/arlionn/sftt). 安装：`net install st0705.pkg, all replace` 
-- `hhi5`：赫芬达尔指数
-  - 连享会, 2020, [Stata数据处理：赫芬达尔指数-(hhi5)-命令介绍](https://www.lianxh.cn/details/327.html)
+This file is intended for browsing on the GitHub repo, to illustrate how GitHub's alerts look in light and dark mode.
 
-- `xtbalance`：非平衡面板 &rarr; 平衡面板
-  - 吴雄, 2020, [Stata数据处理：xtbalance-非平衡面板之转换](https://www.lianxh.cn/details/316.html).
+Copied from [GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts):
+
+> Alerts are a Markdown extension based on the blockquote syntax that you can use to emphasize critical information. On GitHub, they are displayed with distinctive colors and icons to indicate the significance of the content.
+>
+> Use alerts only when they are crucial for user success and limit them to one or two per article to prevent overloading the reader. Additionally, you should avoid placing alerts consecutively. Alerts cannot be nested within other elements.
+>
+> To add an alert, use a special blockquote line specifying the alert type, followed by the alert information in a standard blockquote. Five types of alerts are available:
+
+```markdown
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+```
+
+输出效果为：
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```

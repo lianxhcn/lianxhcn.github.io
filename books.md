@@ -1,10 +1,11 @@
 ---
 title: "Books"
 layout: page
+
 ---
 
 
-> [主页](https://www.lianxh.cn) || [课程](https://www.lianxh.cn/details/17.html)  || [视频](https://lianxh-class.cn/) || [推文](https://www.lianxh.cn/blogs/all.html) || [资料](https://www.lianxh.cn/share.html)
+[主页](https://www.lianxh.cn) || [课程](https://www.lianxh.cn/details/17.html)  || [视频](https://lianxh-class.cn/) || [推文](https://www.lianxh.cn/blogs/all.html) || [资料](https://www.lianxh.cn/share.html)
 
 
 这些书稿是由我平时上课时的讲义整理而成的，尚未完稿。大家在阅读过程中，若发现错误或表述不妥之处，烦请邮件告知我，以便完善。我的邮箱：<arlionn@163.com>。
