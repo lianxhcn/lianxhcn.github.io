@@ -1,4 +1,8 @@
-# Books
+---
+title: "Books"
+layout: page
+---
+
 
 > [主页](https://www.lianxh.cn) || [课程](https://www.lianxh.cn/details/17.html)  || [视频](https://lianxh-class.cn/) || [推文](https://www.lianxh.cn/blogs/all.html) || [资料](https://www.lianxh.cn/share.html)
 

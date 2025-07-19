@@ -1,4 +1,7 @@
-# Codes
+---
+title: "Codes"
+layout: page
+---
 
 Many of the links below will take you to content on GitHub
 ([my github](https://github.com/arlionn)).
